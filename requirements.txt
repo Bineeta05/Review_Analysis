@@ -1,6 +1,6 @@
 streamlit==0.80.0
 joblib==1.0.1
 scikit_learn==0.20.4
-pillow
+pillow==8.3.1
 
 
