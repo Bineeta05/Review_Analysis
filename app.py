@@ -1,3 +1,4 @@
+%%writefile app.py
 import streamlit as st
 from PIL import Image
 import joblib
