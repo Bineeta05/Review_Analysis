@@ -1,5 +1,6 @@
-streamlit==0.80.0
+streamlit==0.84.0
 joblib==1.0.1
-scikit_learn==0.24.1
+scikit_learn==0.24.2
+Pillow==8.3.1
 
-pyngrok==4.1.1
+
