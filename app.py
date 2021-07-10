@@ -8,9 +8,9 @@ op = test_model.predict([ip])
 if st.button('Predict'):
   if (op[0]=='pos'):
     st.title('Positive Review')
-    image_pos = Image.open('/content/Positive Review.png')
+    image_pos = Image.open('Positive Review.png')
     st.image(image_pos, caption=None, width=None, use_column_width=None)
   else:
     st.title('Negative Review')
-    image_neg = Image.open('/content/Negative Review.png')
+    image_neg = Image.open('Negative Review.png')
     st.image(image_neg, caption=None, width=None, use_column_width=None)
