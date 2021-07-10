@@ -14,3 +14,4 @@ if st.button('Predict'):
     st.title('Negative Review')
     image_neg = Image.open('Negative Review.png')
     st.image(image_neg, caption=None, width=None, use_column_width=None)
+    
